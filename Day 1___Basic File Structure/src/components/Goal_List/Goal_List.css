@@ -1,0 +1,11 @@
+.list {
+    margin: 2rem;
+    padding: 0;
+    list-style: none;
+}
+
+.list1, .list2, .list3{
+    border: 2px solid #ccc;
+    padding: 3px;
+    margin: 6px;
+}
