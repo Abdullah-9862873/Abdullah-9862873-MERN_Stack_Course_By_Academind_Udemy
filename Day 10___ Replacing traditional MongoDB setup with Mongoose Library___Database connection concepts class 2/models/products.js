@@ -6,3 +6,7 @@ const productSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("Product", productSchema);
+
+/* 
+Here Product in mongoose.model denotes that a collection named "products" will be made after the execution
+*/
