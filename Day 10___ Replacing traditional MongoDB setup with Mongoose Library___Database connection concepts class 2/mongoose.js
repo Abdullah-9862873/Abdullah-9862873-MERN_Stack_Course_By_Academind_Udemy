@@ -20,7 +20,7 @@ const createProduct = async (req, res, next) => {
 };
 
 const getProduct = async (req,res,next) => {
-    const result = await Product.find().exec();
+    const result = await Product.find().exec(); // exec is used to convert this to a promise so that we can use await
     res.json(result);
 }
 
